@@ -24,6 +24,7 @@
     "jest": "^24.8.0",
     "supertest": "^4.0.2"
   },
+  "proxy": "http://localhost:8000",
   "jest": {
     "setupFilesAfterEnv": [
       "<rootDir>/src/setupTests.js"
